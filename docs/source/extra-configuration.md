@@ -8,14 +8,15 @@ The **DNS** is basically a **contact book** used by your browser to check if the
 
 We configured **Bind9** to give the browser the **core app container** IP whenever it searched for the application domains (see [Installation](#installation)). It looks like this:
 
-> $ORIGIN anatar.com.
-> $TTL 300;
-> @ IN SOA dns {email@domain.com}. (1 30 30 30 30);
-> @ IN NS dns
-> dns IN A {VM IP}
-> @ IN A {core app container IP}
-> web IN CNAME @
-> www IN CNAME @
+```$ORIGIN anatar.com.
+$TTL 300;
+@ IN SOA dns {email@domain.com}. (1 30 30 30 30);
+@ IN NS dns
+dns IN A {VM IP}
+@ IN A {core app container IP}
+web IN CNAME @
+www IN CNAME @
+```
 
 ##### SSL Certificate
 
