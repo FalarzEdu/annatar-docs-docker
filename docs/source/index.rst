@@ -1,22 +1,33 @@
-Welcome to Lumache's documentation!
+Welcome to Annatar Contacts documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Annatar Contacts is a simple Docker-built CRUD (Create, Read, Update, and Delete) application designed to store personal data of the people you know.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
+Through this guide, you will be able to run this application and use it as you find suitable. Notice that some questions may be answered in the [Possible Questions](#possible-questions) section.
 
 Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Installation
 
-   usage
-   api
+   installation.md
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Extra Configuration
+
+   extra-configuration.md
+
+.. toctree::
+   :maxdepth: 2
+   :caption: How to use
+
+   how-to-use.md
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Possible Questions
+
+   possible-questions.md

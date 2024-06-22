@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Annatar Contacts'
+copyright = '2024, Eduardo F.'
+author = 'Eduardo F'
 
-release = '0.1'
-version = '0.1.0'
+release = '1'
+version = '1.0.0'
 
 # -- General configuration
 
@@ -17,7 +17,13 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'recommonmark',
 ]
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
